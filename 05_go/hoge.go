@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	UserCnt := 2000000
+	UserCnt := 1000000
 	var r [][]int
 
 	t := time.Now().UnixNano() / int64(time.Millisecond)
